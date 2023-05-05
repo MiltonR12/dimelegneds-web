@@ -15,7 +15,7 @@ function Navigation() {
   }
 
   return (
-    <header className="bg-slate-900 md:fixed md:w-full border-b-2 border-cyan-400 after:bg-gradient-to-b from-cyan-400 to-slate-950 after:absolute after:h-2 after:w-full relative" >
+    <header className="bg-slate-900 fixed w-full border-b-2 border-cyan-400 after:bg-gradient-to-b from-cyan-400 to-slate-950 after:absolute after:h-2 after:w-full z-50" >
       <div className="flex justify-between items-center mx-auto h-16 relative px-3 max-w-7xl" >
         <div>
           <NavLink className="text-cyan-400 font-bold text-2xl md:text-3xl" to='/' >Dime Legends</NavLink>

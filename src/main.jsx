@@ -4,12 +4,14 @@ import App from './App'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import Navigation from './components/Navigation'
+import PiePagina from './components/PiePagina'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Navigation />
       <App />
+      <PiePagina />
     </BrowserRouter>
   </React.StrictMode>
 )
